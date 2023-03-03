@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+*{
+  --gray-color: #eeeeee;
+  --orange-color: #ff764d;
+}
+
+header {
+  display: flex;
+  border-bottom: 3px solid var(--gray-color);
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*
+  Header.js
+*/
+
+header >.container-img-menu {
+  display: flex;
+}
+
+header >.container-img-menu >.container-img { 
+  padding: 0 30px;
+}
+
+header > .container-img-menu > .container-img > a > img{
+  width: 65px;
+}
+
+/*
+  Menu.js
+*/
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+nav > ul > li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav > ul > li:last-child > a {
+  color: var(--orange-color);
+}
+
+/*
+  LinksUseful.js
+*/
+
+.links-useful > a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+.links-useful > a:last-child {
+  font-size: 14px;
+  color: black;
+  padding: 0 40px 0 25px
+}
+
+/*
+  SecondHeader.js
+*/
+
+.second-navbar {
+  padding: 25px 0 25px 33px;
+}
+
+.second-navbar > a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.second-navbar > a:first-child {
+  color: var(--orange-color);
+  padding-left: 0;
+}
