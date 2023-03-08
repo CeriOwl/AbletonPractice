@@ -10,4 +10,10 @@
 
 body {
     background-color: var(--background-color);
+    display: grid;
+    justify-content: center;
+}
+
+#root {
+    max-width: 1440px;
 }
