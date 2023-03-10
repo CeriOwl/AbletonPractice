@@ -91,7 +91,7 @@ export default function Main() {
                     <p>
                         We're really proud of the work we've done so far. But there's so much more to come. If you'd like to be a part of it, please join us.
                     </p>
-                    <a href="#"></a>
+                    <a href="#">See lastest jobs<i class='bx bx-chevron-right'></i></a>
                 </div>
             </section>
         </main>
