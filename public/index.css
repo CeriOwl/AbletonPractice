@@ -1,5 +1,6 @@
 :root {
-    --background-color: #f9f9f9;
+    --background-color-root: #f9f9f9;
+    --background-color-global: #f3f3f3;
 }
 
 *{
@@ -9,11 +10,10 @@
 }
 
 body {
-    background-color: var(--background-color);
-    display: grid;
-    justify-content: center;
+    background-color: var(--background-color-global);
 }
 
 #root {
     max-width: 1440px;
+    background-color: var(--background-color-root);
 }
