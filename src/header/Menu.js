@@ -3,7 +3,7 @@ import ReactDOM from "react-dom"
 
 export default function Menu() {
     return (
-        <nav>
+        <nav id="menu-off">
             <ul>
                 <li><a href="#">Live</a></li>
                 <li><a href="#">Push</a></li>
