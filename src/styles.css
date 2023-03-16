@@ -663,6 +663,10 @@ footer>.legal-info>.made-by>img {
   header > div > .menu-phone {
     display: none;
   }
+  .menu-down-off {
+    display: none;
+  }
+  
 }
 
 /*
@@ -769,6 +773,121 @@ footer>.legal-info>.made-by>img {
 
   .menu-on {
     display: flex;
+  }
+
+  .header-on {
+    position: relative;
+    z-index: 1;
+    border-bottom : 0;
+  }
+
+  .second-navbar {
+    z-index: 0;
+  }
+
+  .menu-down-off {
+    background-color: var(--button-color);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    z-index: 1;
+    top: -180vh;
+    padding: 0 30px 30px 30px;
+    width: 100%;
+  }
+
+  .menu-down-off > nav {
+    padding-top: calc(69px + 10px);
+    padding-bottom: 25px;
+  }
+
+  .menu-down-off > nav > ul{
+    flex-direction: column;
+    row-gap: 25px;
+  }
+
+  .menu-down-off > nav > ul > li {
+    padding: 0;
+  }
+
+  .menu-down-off > nav > ul > li:last-child {
+    display: none;
+  }
+
+  .menu-down-off > nav > ul > li > a {
+    color: white;
+  }
+
+  .menu-down-off > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding-bottom: 25px;
+  }
+
+  .menu-down-off > div:nth-child(2) > a:nth-child(2) {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .menu-down-off > div:nth-child(2) > a {
+    color: white;
+  }
+
+  .menu-down-off > div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding-bottom: 25px;
+  }
+
+  .menu-down-off > div:nth-child(3) > ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    font-size: 12px;
+  }
+
+  .menu-down-off > div:nth-child(3) > ul > li {
+    list-style: none;
+  }
+
+  .menu-down-off > div:nth-child(3) > ul > li > a,
+  .menu-down-off > div:nth-child(4) > div > a {
+    text-decoration: none;
+    color: white;
+  }
+  .menu-down-off > div:nth-child(3) > ul > li:nth-child(5) > a {
+    color: var(--orange-color);
+  }
+
+  .menu-down-off > div:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+
+  .menu-down-off > div:nth-child(4) > div {
+    display: flex;
+    overflow-x: scroll;
+    column-gap: 20px;
+  }
+
+  .menu-down-off > div:nth-child(4) > div > a {
+    font-size: 12px;
+    min-width: 213px;
+    padding: 10px;
+    line-height: 22px;
+  }
+
+  .header-on > div > .menu-phone > button{
+    color: white;
+    transition: 800ms;
+  }
+  .header-on > .container-img-menu > .container-img > a > img {
+    filter: invert(1);
+    transition: 800ms;
   }
 }
 
