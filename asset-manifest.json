@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AbletonPractice/static/css/main.6acffa69.css",
+    "main.js": "/AbletonPractice/static/js/main.81db4906.js",
+    "index.html": "/AbletonPractice/index.html",
+    "main.6acffa69.css.map": "/AbletonPractice/static/css/main.6acffa69.css.map",
+    "main.81db4906.js.map": "/AbletonPractice/static/js/main.81db4906.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6acffa69.css",
+    "static/js/main.81db4906.js"
+  ]
+}

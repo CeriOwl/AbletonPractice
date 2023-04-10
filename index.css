@@ -1,0 +1,19 @@
+:root {
+    --background-color-root: #f9f9f9;
+    --background-color-global: #f3f3f3;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color-global);
+}
+
+#root {
+    max-width: 1440px;
+    background-color: var(--background-color-root);
+}
